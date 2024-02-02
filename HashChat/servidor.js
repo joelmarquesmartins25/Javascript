@@ -17,3 +17,7 @@ aplicacao.use(express.static('public'));
 
 
 servidorHttp.listen(1000);
+
+// Pra configurar o servidor na rede local
+// enderecoIP da máquina local
+// servidorHttp.listen(1000, enderecoIP);
